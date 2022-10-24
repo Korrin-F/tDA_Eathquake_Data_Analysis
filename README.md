@@ -48,8 +48,8 @@ https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credit
 
 # My Files
 
-The results of my analysis are recoded and explained in more depth in the 'Presentation' files. It was made in Keynote then converted to powerpoint so there may be some conversion errors. 
+The results of my analysis are recorded and explained in more depth in the 'Presentation' files. It was made in Keynote and then converted to PowerPoint so there may be some conversion errors. 
 
-Apart from the earthquake data set there is also a 'column_notes.csv' which I used to help me wrap my head around the earthquake columns. 
+Apart from the earthquake data set, there is also a 'column_notes.csv' which I used to help me wrap my head around the earthquake columns. 
 
-Finaly the column_def.txt is a detailed description of the columns using the information provided by the dataset providors. 
+Finally, the column_def.txt is a detailed description of the columns using the information provided by the dataset providers. 
