@@ -1,0 +1,20 @@
+columnNames,topics,outlierReferences,description
+dmin,depth,True,Typical Values[0.4 to 7.1]. In general the smaller this number the more reliable is the calculated depth of the earthquake.
+depthError,depth,False,The depth error in km defined as the largest projection of the three principal errors on a vertical line.
+gap,depth,True,Typical Values: [0.0 to 180.0]. (In general the smaller this number the more reliable is the calculated horizontal position of the earthquake. Earthquake locations in which the azimuthal gap exceeds 180 degrees typically have large location and depth uncertainties.)
+gap,location,True,Typical Values: [0.0 to 180.0]. (In general the smaller this number the more reliable is the calculated horizontal position of the earthquake. Earthquake locations in which the azimuthal gap exceeds 180 degrees typically have large location and depth uncertainties.)
+nst,location,False,(The total number of seismic stations used to determine earthquake location.)
+place,location,False,The nearest named geographic location to the epicenter of the earthquake.
+horizontalError,location,False,Uncertainty of the reported location of the event in kilometres.
+locationSource,location,False,The network that originally authored the reported location of this event.
+latitude,location,False,The latitude of the event in decimal degrees.
+longitude,location,False,The longitude of the event in decimal degrees.
+time,location,False,The time of the event in milliseconds since the epoch.
+mag,mag,True,Typical Values: [-1.0 to 10.0]
+magError,mag,True,Uncertainty in the reported magnitude of the event. Typical Values [0 to 100]. The estimated standard error of the magnitude. 
+magNst,mag,False,The total number of seismic stations used to determine the reported magnitude of the event.
+magSource,mag,False,The network that originally authored the reported magnitude of this event.
+id,other,False,The unique identifier of the event.
+updated,other,False,The time of the most recent update to the event in milliseconds since the epoch.
+type,other,False,The type of event. Typical Values: "earthquake" "quarry blast" "explosion" "nuclear explosion" "rock burst" "foreshock" "harbor bump" "ice quake" "landslide" "meteorite" "mine collapse" "other event" "quarry blast" "rock burst" "sonic boom" "tremor" "volcanic eruption" "water explosion" "water quake" "unknown"
+status,other,False,The status of the event. Typical Values: "automatic" "reviewed" "deleted"
